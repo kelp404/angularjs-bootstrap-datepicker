@@ -1,0 +1,17 @@
+.bootstrap-datepicker {
+  margin: 5px 0 0;
+  position: absolute;
+  z-index: 1031;
+  width: 250px;
+  background-color: #fff; }
+  .bootstrap-datepicker tr.pa-days {
+    font-weight: bold; }
+  .bootstrap-datepicker th, .bootstrap-datepicker td {
+    cursor: pointer;
+    text-align: center; }
+    .bootstrap-datepicker th:hover, .bootstrap-datepicker td:hover {
+      background: #ddd; }
+  .bootstrap-datepicker th, .bootstrap-datepicker td {
+    padding: 5px !important; }
+  .bootstrap-datepicker td.selected {
+    background: #5bc0de; }

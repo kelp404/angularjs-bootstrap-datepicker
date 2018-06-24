@@ -1,0 +1,11 @@
+# OS X
+.DS_Store
+
+# bower components
+/bower_components/
+
+# node modules
+/node_modules/
+
+# WebStorm
+/.idea/

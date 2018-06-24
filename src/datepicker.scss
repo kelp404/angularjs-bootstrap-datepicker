@@ -1,0 +1,29 @@
+$datepicker-z-index: 1031 !default;
+$datepicker-selected-background: #5bc0de !default;
+
+.bootstrap-datepicker {
+  margin: 5px 0 0;
+  position: absolute;
+  z-index: $datepicker-z-index;
+  width: 250px;
+  background-color: #fff;
+
+  tr.pa-days {
+    font-weight: bold;
+  }
+
+  th, td {
+    cursor: pointer;
+    text-align: center;
+    &:hover {
+      background: #ddd;
+    }
+  }
+
+  th, td {
+    padding: 5px !important;
+  }
+  td.selected {
+    background: $datepicker-selected-background;
+  }
+}
