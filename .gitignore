@@ -6,6 +6,7 @@
 
 # node modules
 /node_modules/
+/package-lock.json
 
 # WebStorm
 /.idea/
